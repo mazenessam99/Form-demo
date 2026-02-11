@@ -64,6 +64,7 @@ Form-demo/
 
 ## 🚀 Getting Started
 
+```txt
 1️⃣ Clone the repository
 git clone https://github.com/mazenessam99/Form-demo.git
 cd Form-demo
@@ -76,10 +77,14 @@ http://localhost:5173
 
 -- You will see the project running with Navbar, Footer, and connected pages
 
+```
 ---
 
 ## 📝 Available Pages
 
+```txt
 / → Home
 /login → Login page
 /register → Register page
+
+```
