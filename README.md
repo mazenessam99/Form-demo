@@ -45,17 +45,24 @@ Form-demo/
 │  ├─ layouts/
 │  │  └─ MainLayout.tsx
 │  ├─ components/
+│  │  ├─ RegisterForm.tsx
 │  │  ├─ LoginForm.tsx
-│  │  └─ RegisterForm.tsx
+│  │  ├─ Navbar.tsx
+│  │  ├─ Home.tsx
+│  │  └─ Footer.tsx
 │  ├─ pages/
+│  │  ├─ Register.tsx
 │  │  ├─ Login.tsx
-│  │  └─ Register.tsx
+│  │  └─ Home.tsx
 │  ├─ router/
 │  │  └─ router.tsx
 │  ├─ App.tsx
 │  └─ main.tsx
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
+
 1️⃣ Clone the repository
 git clone https://github.com/mazenessam99/Form-demo.git
 cd Form-demo
@@ -68,9 +75,10 @@ http://localhost:5173
 
 -- You will see the project running with Navbar, Footer, and connected pages
 
-📝 Available Pages
+---
+
+## 📝 Available Pages
+
 / → Home
-
 /login → Login page
-
 /register → Register page
