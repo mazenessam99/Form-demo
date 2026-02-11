@@ -27,7 +27,7 @@ This project is built to:
 ---
 
 ## 🛠 Tech Stack
-- React 18
+- React 
 - React Hook Form
 - Vite
 - TypeScript
