@@ -88,3 +88,13 @@ http://localhost:5173
 /register → Register page
 
 ```
+## 👨‍💻 Author
+**Mazen Mohamed Essam** – Frontend React Developer, Egypt 🇪🇬
+
+- GitHub: [mazenessam99](https://github.com/mazenessam99)
+- LinkedIn: [Mazen Essam](http://linkedin.com/in/mazen-essam)
+- Email: [emazen628@gmail.com](mailto:emazen628@gmail.com)
+
+---
+
+⭐ If you like this project, give it a ⭐ on GitHub!
