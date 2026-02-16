@@ -17,11 +17,11 @@ export function Navbar() {
                     </NavLink>
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex space-x-6">
+                    <div className="hidden md:flex items-center space-x-6">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
-                                isActive ? "text-blue-400" : "hover:text-blue-300"
+                                isActive ? "text-primary" : "hover:text-primary/80"
                             }
                         >
                             Home
@@ -30,17 +30,21 @@ export function Navbar() {
                         <NavLink
                             to="/about"
                             className={({ isActive }) =>
-                                isActive ? "text-blue-400" : "hover:text-blue-300"
+                                isActive ? "text-primary" : "hover:text-primary/80"
                             }
                         >
                             About
                         </NavLink>
 
-                        <NavLink
-                            to="/login"
-                            className="hover:text-blue-300"
-                        >
-                            Login
+                        <NavLink to="/login">
+                            <Button className="w-full text-white font-bold cursor-pointer">
+                                Login
+                            </Button>
+                        </NavLink>
+                        <NavLink to="/register">
+                            <Button className="w-full bg-white text-primary transition-colors delay-100 cursor-pointer hover:bg-primary hover:text-white">
+                                SignUp
+                            </Button>
                         </NavLink>
                     </div>
 
@@ -49,8 +53,8 @@ export function Navbar() {
                         className="md:hidden bg-white"
                         onClick={() => setIsOpen(!isOpen)}
                     >
-                        <Menu className="text-primary"/>
-                    </Button> 
+                        <Menu className="text-primary" />
+                    </Button>
                 </div>
             </div>
 
@@ -63,9 +67,18 @@ export function Navbar() {
                     <NavLink to="/about" className="block">
                         About
                     </NavLink>
-                    <NavLink to="/login" className="block">
-                        Login
-                    </NavLink>
+                    <div className="flex flex-col gap-4 mt-4">
+                        <NavLink to="/login">
+                            <Button className="w-full text-white font-bold">
+                                Login
+                            </Button>
+                        </NavLink>
+                        <NavLink to="/register">
+                            <Button className="w-full bg-white text-primary hover:bg-primary hover:text-white">
+                                SignUp
+                            </Button>
+                        </NavLink>
+                    </div>
                 </div>
             )}
         </nav>
